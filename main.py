@@ -105,7 +105,7 @@ def display_simulated_ef_with_random(mean_returns, cov_matrix, num_portfolios, r
 
 
 plt.style.use('fivethirtyeight')
-cached = True
+cached = False
 table = get_data(cached)
 plot_stock_evolution(table)
 plot_stock_volitility(table)
